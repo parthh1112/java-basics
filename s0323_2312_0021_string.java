@@ -11,7 +11,6 @@ class s0323_2312_0021_string {
         String str2 = "parth";
         System.out.println(str.equals(str1)); //////////
         System.out.println(str.equalsIgnoreCase(str2)); //////////
-
         System.out.println(str1.compareTo(str2)); ////////////////
         System.out.println(str1.compareToIgnoreCase(str2)); /////////////
         System.out.println(str1.substring(2)); ////////////////
@@ -21,14 +20,11 @@ class s0323_2312_0021_string {
         System.out.println(str1.trim()); /////////////
         System.out.println(str1.replace("pa","chin"));///////////
         System.out.println(str1.contains("pa")); //////////////////
-        // str1.startsWith("pas");
-        // str1.endsWith("we");
-        // str1.isEmpty();
-        // str1.isBlank();
-        // str1.indexOf("a");
-        // str1.lastIndexOf('t');
-        
-
-
+        System.out.println(str1.startsWith("pa")); ////////////
+        System.out.println(str1.endsWith("h")); /////////////////
+        System.out.println(str1.isEmpty()); ////////////////////
+        System.out.println(str1.isBlank());///////////////////
+        System.out.println(str1.indexOf("a")); ///////////////////
+        System.out.println(str1.lastIndexOf('h')); ///////////////
   }
 }
