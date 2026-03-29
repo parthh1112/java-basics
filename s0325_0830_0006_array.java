@@ -250,6 +250,7 @@ public class s0325_0830_0006_array {
         // 16. Array.toString() vs Arrays.toString()
         System.out.println("=== 16. toString() Methods Comparison ===");
         int[] arr16 = {1, 2, 3};
+        
         System.out.println("arr.toString(): " + arr16.toString());  // Shows memory address
         System.out.println("arr.toString(): " + arr16);  // Shows memory address
         System.out.println("Arrays.toString(): " + Arrays.toString(arr16));  // Shows elements
